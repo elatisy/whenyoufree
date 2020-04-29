@@ -15,6 +15,8 @@ public class User implements Model {
     // 真实姓名
     private String realName;
 
+    private String password;
+
     private String phone;
 
     private String email;
