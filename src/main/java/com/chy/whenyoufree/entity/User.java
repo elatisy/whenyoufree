@@ -1,5 +1,6 @@
 package com.chy.whenyoufree.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -13,6 +14,7 @@ public class User implements Model {
     private String nick;
 
     // 真实姓名
+    @TableField("real_name")
     private String realName;
 
     private String password;

@@ -15,4 +15,7 @@ public class UserRegisterRequest {
     private String password;
 
     private String realName;
+
+    @NotBlank
+    private String phone;
 }
